@@ -1,6 +1,7 @@
-Azure Python SDK samples
-to run:
-Step 1: Authentication
+# Azure Python SDK samples
+### to run:
+#### Step 1: Authentication
+
 az login
 az ad sp create-for-rbac --name "mbservprin1”
 
@@ -10,6 +11,7 @@ export AZURE_CLIENT_ID="e1156021-c619-xxxx-b6e5-xxxxxxx"
 export AZURE_CLIENT_SECRET="Pe41dqZn+37VN-xxxxxxxxxxxx"
 export AZURE_SUBSCRIPTION_ID="cc71f0b1-6fa4-408c-xxxxxxxxxxx"
 
-Step2:
-$ pip install -r requirements.txt
-$ python createWindowsVM.py
+
+#### Step2:
+`$ pip install -r requirements.txt`
+`$ python createWindowsVM.py`
