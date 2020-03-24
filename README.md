@@ -14,4 +14,5 @@ export AZURE_SUBSCRIPTION_ID="cc71f0b1-6fa4-408c-xxxxxxxxxxx"
 
 #### Step2:
 `$ pip install -r requirements.txt`
+
 `$ python createWindowsVM.py`
